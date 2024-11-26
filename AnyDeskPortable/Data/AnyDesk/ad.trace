@@ -1,0 +1,1121 @@
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * Checksum 1b8e6bc34e8cd533b5d7281935ff2761
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * Build 20220808112342
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - * Copyright (C) 2022 AnyDesk Software GmbH *
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - 
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - Process started at 2024-11-26. PID 4200. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:25:37.380      front   4200   9724                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:25:37.380      front   4200   9724                                  main - Install status: not installed (<4)
+   info 2024-11-26 17:25:37.380      front   4200   9724          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:25:37.380      front   4200   9724          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:25:37.414      front   4200   9724                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:25:37.414      front   4200   9724                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:25:37.430      front   4200   9724                       base.signal.hub - 12 threads.
+warning 2024-11-26 17:25:37.430      front   4200   9724                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+warning 2024-11-26 17:25:37.430      front   4200   9724                          account_info - Could not read account info from config.
+   info 2024-11-26 17:25:37.430      front   4200   9724                            app.roster - Updating the jump list
+   info 2024-11-26 17:25:37.430      front   4200   9724                  os_win.jump_list_mgr - 0 items found
+   info 2024-11-26 17:25:37.461      front   4200   9724                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:25:37.461      front   4200   9300                      win_app.frontend - Frontend startup (elevated).
+   info 2024-11-26 17:25:37.461      front   4200   9300                   fiber.ipc_namespace - Global: no
+   info 2024-11-26 17:25:37.461      front   4200   9300                      win_app.frontend - Logging the frontend in.
+   info 2024-11-26 17:25:37.461      front   4200   9300             app.named_process_starter - Spawning local service.
+warning 2024-11-26 17:25:37.492      front   4200   9300             app.named_process_starter - Starting control process in session 1.
+warning 2024-11-26 17:25:37.492      front   4200   9300             app.named_process_starter - Could not query the user token (1314).
+   info 2024-11-26 17:25:37.492      front   4200   9300             app.named_process_starter - Spawning process directly in current session 1.
+   info 2024-11-26 17:25:37.562      front   4200   9724                        gui.mainwindow - Main window created (standard mode).
+   info 2024-11-26 17:25:37.615      front   4200   9724                      win_app.frontend - Disallowing Google Chrome offer (no permission: 0x00000000 & 0x00000001).
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                                  main - 
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                                  main - Process started at 2024-11-26. PID 4084. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:25:37.752       lsvc   4084  10132            permission_profile_manager - Migrating V0 -> V1
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132                       fiber.scheduler - Spawning root fiber 1.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132                       fiber.scheduler - Scheduler started.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1                      app.service - Opening the IPC namespace.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1              fiber.ipc_namespace - Global: no
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1                      app.service - Logging into the IPC namespace.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1                      app.service - Starting to supervise the IPC namespace.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1                      app.service - Starting the connector.
+   info 2024-11-26 17:25:37.771       lsvc   4084  10132    1            anynet.connection_mgr - Generating a new certificate and key.
+   info 2024-11-26 17:25:37.781       lsvc   4084   9036                    os_win.firewall_if - Adding AnyDesk to the firewall rules.
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                                  main - 
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                                  main - Process started at 2024-11-26. PID 1736. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:25:37.781      lctrl   1736  11224          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:25:37.812      lctrl   1736  11224                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:25:37.812      lctrl   1736  11224                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:25:37.812      lctrl   1736  11224                       base.signal.hub - 1 threads.
+   info 2024-11-26 17:25:37.812      lctrl   1736  11224                       clipbrd.capture - Empty format set.
+   info 2024-11-26 17:25:37.827      lctrl   1736  11224                    app.tunnel_ft_comp - Ready.
+   info 2024-11-26 17:25:37.827      lctrl   1736  11224                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:25:37.827      lctrl   1736   4972                        ad_app.control - Control startup.
+   info 2024-11-26 17:25:37.827      lctrl   1736   4972                        ad_app.control - Connecting to the service.
+   info 2024-11-26 17:25:37.827      lctrl   1736   4972                        ad_app.control - Starting the printer_worker.
+   info 2024-11-26 17:25:37.827      lctrl   1736   4972                        ad_app.control - Starting reg config watcher.
+   info 2024-11-26 17:25:37.827      lctrl   1736   7952                    app.printer_worker - Waiting for commands.
+   info 2024-11-26 17:25:37.881       lsvc   4084   9036                  win_app.firewall_mgr - Success.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1            anynet.connection_mgr - 2 CA certificate(s) loaded.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                  fiber.scheduler - Spawning root fiber 2.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                  fiber.scheduler - Spawning root fiber 3.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                      app.service - Setting up the listen sockets.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                  fiber.scheduler - Spawning root fiber 4.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                      app.service - Service startup completed.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1            app.discovery_manager - Updated Discovery settings: repeat interval (1000), repeat limit (10), buffer interval (5000), port range (3)
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                   ad.wol_service - Starting WOL service.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 5 (parent 1).
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 6 (parent 1).
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                      app.service - Waiting for messages.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                      app.service - Process start: 4200 (frontend).
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts enabled.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    1                      app.service - Process start: 1736 (control:1).
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    2            anynet.connection_mgr - Starting connection manager fiber.
+   info 2024-11-26 17:25:37.959       lsvc   4084  10132    3           anynet.main_relay_conn - Starting main relay connection.
+   info 2024-11-26 17:25:37.975       lsvc   4084  10132    3                  fiber.scheduler - Spawning child fiber 7 (parent 3).
+   info 2024-11-26 17:25:37.975       lsvc   4084  10132    4                anynet.any_socket - Listen fiber started.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    5                      anynet.conn - Request before connect. Queueing.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    1                      app.service - Received connectivity update (3).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    3           anynet.main_relay_conn - Reconnecting due to connectivity change (3).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132                       fiber.scheduler - Fiber 3 requested quit of fiber 7.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    7           anynet.relay_connector - Relay connector started.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    7           anynet.relay_connector - Start proxy search.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    7                      fiber.fiber - Received quit.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132                       fiber.scheduler - Fiber 7 terminated.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    3                  fiber.scheduler - Spawning child fiber 8 (parent 3).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Relay connector started.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Start proxy search.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8                base.proxy_finder - Skipping search. Next search in 60000 ms.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Connecting to relay boot.net.anydesk.com (1/1)
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 9 (parent 1).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 10 (parent 1).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Connected to 4200 (frontend).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Connected to 1736 (control:1).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Process login detected.
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132    9                      app.service - Unexpected message. packet_msg_t
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Process login detected.
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    9                  fiber.scheduler - Spawning child fiber 11 (parent 9).
+   info 2024-11-26 17:25:37.981      front   4200   9300                      win_app.frontend - Received process login response.
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+warning 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Unexpected message. settings_update_msg_t
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132   10                      app.service - Using existing control (1736).
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132   10                  fiber.scheduler - Spawning child fiber 12 (parent 10).
+   info 2024-11-26 17:25:37.981      lctrl   1736   6268                        ad_app.control - Session count: (0, 0)
+   info 2024-11-26 17:25:37.981       lsvc   4084  10132    8           anynet.relay_connector - Using IPv4: 92.223.88.7
+  error 2024-11-26 17:25:37.997      front   4200   9300                    os_win.fs_sentinel - Failed to monitor 'C:\Users\Public\AccountPictures\S-1-5-21-3387012414-4196568787-3877765190-1002' (2).
+   info 2024-11-26 17:25:37.997      front   4200   9300                      win_app.frontend - Requesting Google Chrome compatibility check.
+   info 2024-11-26 17:25:37.997      lctrl   1736   4972                       clipbrd.capture - Setting new capture formats: text files.
+warning 2024-11-26 17:25:37.997      front   4200   9300                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+warning 2024-11-26 17:25:37.997      lctrl   1736   4972                        ad_app.control - Could not update account image (app.bitmap The system cannot find the path specified. (0x80070003)).
+   info 2024-11-26 17:25:37.997      front   4200   9300                      win_app.frontend - Frontend startup complete.
+  error 2024-11-26 17:25:37.997      lctrl   1736   4972                     base.proxy_finder - Proxy resolution failed (00002f94).
+   info 2024-11-26 17:25:37.997      lctrl   1736   4972                        ad_app.control - Control startup finished.
+   info 2024-11-26 17:25:38.044       lsvc   4084  10132    8                  fiber.scheduler - Spawning root fiber 13.
+   info 2024-11-26 17:25:38.128      front   4200   6452                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:25:38.144       lsvc   4084  10132    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-11-26 17:25:38.144       lsvc   4084  10132    8                  fiber.scheduler - Spawning root fiber 14.
+   info 2024-11-26 17:25:38.144       lsvc   4084  10132    8                        handshake - Using protocol version 3.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132                       fiber.scheduler - Fiber 8 requested quit of fiber 14.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132   14                      fiber.fiber - Received quit.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132                       fiber.scheduler - Fiber 14 terminated.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132                       fiber.scheduler - Fiber 8 requested quit of fiber 13.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132   13                      fiber.fiber - Received quit.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132                       fiber.scheduler - Fiber 13 terminated.
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Connection terminated: anynet_invalid_zone
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Received a new server list (10 servers)
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Connecting to relay relay-daa16496.net.anydesk.com (1/10)
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2024-11-26 17:25:38.313       lsvc   4084  10132    8           anynet.relay_connector - Using IPv4: 51.178.65.231
+   info 2024-11-26 17:25:38.398       lsvc   4084  10132    8                  fiber.scheduler - Spawning root fiber 15.
+   info 2024-11-26 17:25:38.582       lsvc   4084  10132    8           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-11-26 17:25:38.582       lsvc   4084  10132    8                  fiber.scheduler - Spawning root fiber 16.
+   info 2024-11-26 17:25:38.582       lsvc   4084  10132    8                        handshake - Using protocol version 3.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    8           anynet.relay_connector - Connection established.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    8           anynet.relay_connector - Relay connector stopped.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132                       fiber.scheduler - Fiber 8 terminated.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    3           anynet.main_relay_conn - Network ID: main
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    3                anynet.relay_conn - External address: 95.24.41.133:9397.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    3           anynet.main_relay_conn - Reporting system information.
+   info 2024-11-26 17:25:38.714       lsvc   4084  10132    3           anynet.main_relay_conn - Main relay ID: daa16496
+   info 2024-11-26 17:25:38.730       lsvc   4084  10132    3           anynet.main_relay_conn - Detected 3 new networks.
+   info 2024-11-26 17:25:38.730       lsvc   4084  10132    2            anynet.connection_mgr - Main relay connection established.
+   info 2024-11-26 17:25:38.730       lsvc   4084  10132    2            anynet.connection_mgr - New user data. Client-ID: 1491209042.
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+  error 2024-11-26 17:25:38.730       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(47)
+warning 2024-11-26 17:25:38.730      front   4200   2168                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:25:38.730      front   4200   2168                   anymessage.provider - CID changed. Requesting messages update.
+   info 2024-11-26 17:25:38.730      front   4200   2168                   anymessage.provider - License changed. Requesting messages update.
+   info 2024-11-26 17:25:38.830      lctrl   1736  11224                           ad_app.tray - Created the icon.
+  error 2024-11-26 17:25:38.946       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(60)
+   info 2024-11-26 17:25:39.062       lsvc   4084  10132    9                            gcpsa - Downloading gcapi.dll.
+  error 2024-11-26 17:25:39.199       lsvc   4084  10132    9                 win_app.dir_file - Could not open file (2).
+   info 2024-11-26 17:25:39.199       lsvc   4084  10132    9                  fiber.scheduler - Spawning child fiber 17 (parent 9).
+   info 2024-11-26 17:25:39.199      lctrl   1736   6268                        ad_app.control - Received GCP response (10, 1, 0, 0).
+   info 2024-11-26 17:25:39.900       lsvc   4084  10132                       fiber.scheduler - Fiber 17 terminated.
+   info 2024-11-26 17:25:39.900      lctrl   1736   6268                        ad_app.control - Received request to check Google Chrome compatibility.
+   info 2024-11-26 17:25:40.101       lsvc   4084  10132   10                  fiber.scheduler - Spawning child fiber 18 (parent 10).
+   info 2024-11-26 17:25:40.101      front   4200   9724                                   msg - Showing GC Promo (1).
+   info 2024-11-26 17:25:40.101      front   4200   9724                      win_app.frontend - Reporting Google Chrome offer shown (location 1).
+   info 2024-11-26 17:25:40.101       lsvc   4084  10132    9                  fiber.scheduler - Spawning child fiber 19 (parent 9).
+   info 2024-11-26 17:25:41.148       lsvc   4084  10132                       fiber.scheduler - Fiber 18 terminated.
+   info 2024-11-26 17:25:41.164       lsvc   4084  10132                       fiber.scheduler - Fiber 19 terminated.
+   info 2024-11-26 17:25:42.619      front   4200   9724                      win_app.frontend - Reporting Google Chrome offer declined (location 1).
+   info 2024-11-26 17:25:42.619       lsvc   4084  10132    9                              gcp - Storing offer timestamp (elevated).
+   info 2024-11-26 17:25:42.619       lsvc   4084  10132    9                              gcp - Store result: 1 (0x00000000)
+   info 2024-11-26 17:25:42.619       lsvc   4084  10132    9                              gcp - Storing offer timestamp (fallback).
+   info 2024-11-26 17:25:42.619       lsvc   4084  10132    9                              gcp - Store result: 1 (0x00000000)
+   info 2024-11-26 17:25:42.619       lsvc   4084  10132    9                  fiber.scheduler - Spawning child fiber 20 (parent 9).
+   info 2024-11-26 17:25:42.619      lctrl   1736   6268                                   gcp - Storing offer timestamp (elevated).
+   info 2024-11-26 17:25:42.619      lctrl   1736   6268                                   gcp - Store result: 0 (0x00000010)
+   info 2024-11-26 17:25:42.619      front   4200   9724                      win_app.frontend - Disallowing Google Chrome offer (user already decided).
+   info 2024-11-26 17:25:43.684       lsvc   4084  10132                       fiber.scheduler - Fiber 20 terminated.
+warning 2024-11-26 17:25:50.026      front   4200   9724                          account_info - Could not read account info from config.
+warning 2024-11-26 17:25:50.026      front   4200   9724                          account_info - Could not read account info from config.
+   info 2024-11-26 17:25:50.073      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:25:50.073      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:25:50.157      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:25:53.916      front   4200   9724                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:25:56.530      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:26:13.683      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:13.683      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:13.693      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:13.703      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:13.703      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:13.714      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:13.714      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:26:18.628      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:18.634      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:21.052      front   4200   9724                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:26:23.152      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:26:23.152      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:23.152      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:26:24.554      front   4200   9724                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:26:25.039      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:25.039      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:25.039      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:26:25.355      front   4200   9724                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:26:26.457      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:26:26.457      front   4200   9724                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:26:26.473      front   4200   9724          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:27:03.782       lsvc   4084  10132    2            anynet.connection_mgr - Reestablishing the main relay connection.
+   info 2024-11-26 17:27:03.782       lsvc   4084  10132                       fiber.scheduler - Fiber 3 requested quit of fiber 16.
+   info 2024-11-26 17:27:03.782       lsvc   4084  10132   16                      fiber.fiber - Received quit.
+   info 2024-11-26 17:27:03.782       lsvc   4084  10132                       fiber.scheduler - Fiber 16 terminated.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132                       fiber.scheduler - Fiber 3 requested quit of fiber 15.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132   15                      fiber.fiber - Received quit.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132                       fiber.scheduler - Fiber 15 terminated.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132    3                  fiber.scheduler - Spawning child fiber 21 (parent 3).
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132   21           anynet.relay_connector - Relay connector started.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132   21           anynet.relay_connector - Start proxy search.
+   info 2024-11-26 17:27:03.797       lsvc   4084  10132    1                      app.service - Forwarding proxy search to the existing control.
+   info 2024-11-26 17:27:03.797      lctrl   1736   6268                        ad_app.control - Received proxy search request.
+  error 2024-11-26 17:27:03.813      lctrl   1736   6268                     base.proxy_finder - Proxy resolution failed (00002f94).
+   info 2024-11-26 17:27:03.913       lsvc   4084  10132   21           anynet.relay_connector - Connecting to relay relay-daa16496.net.anydesk.com (1/2)
+   info 2024-11-26 17:27:03.913       lsvc   4084  10132   21           anynet.relay_connector - Skipping connect method connect_proxy_443 (1/6) (no proxy found)
+   info 2024-11-26 17:27:03.913       lsvc   4084  10132   21           anynet.relay_connector - Skipping connect method connect_proxy_80 (2/6) (no proxy found)
+   info 2024-11-26 17:27:03.913       lsvc   4084  10132   21           anynet.relay_connector - Skipping connect method socks_proxy_443 (3/6) (no proxy found)
+   info 2024-11-26 17:27:03.913       lsvc   4084  10132   21           anynet.relay_connector - Using IPv4: 51.178.65.231
+   info 2024-11-26 17:27:03.982       lsvc   4084  10132   21                  fiber.scheduler - Spawning root fiber 22.
+   info 2024-11-26 17:27:04.144       lsvc   4084  10132   21           anynet.relay_connector - Cipher: ECDHE-ECDSA-AES256-GCM-SHA384 TLSv1.2 Kx=ECDH Au=ECDSA Enc=AESGCM(256) Mac=AEAD
+   info 2024-11-26 17:27:04.144       lsvc   4084  10132   21                  fiber.scheduler - Spawning root fiber 23.
+   info 2024-11-26 17:27:04.144       lsvc   4084  10132   21                        handshake - Using protocol version 3.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132   21           anynet.relay_connector - Connection established.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132   21           anynet.relay_connector - Relay connector stopped.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132                       fiber.scheduler - Fiber 21 terminated.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    3           anynet.main_relay_conn - Network ID: main
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    3                anynet.relay_conn - External address: 95.24.41.133:9371.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    3           anynet.main_relay_conn - Main relay ID: daa16496
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    3           anynet.main_relay_conn - Detected 3 new networks.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    2            anynet.connection_mgr - Main relay connection established.
+   info 2024-11-26 17:27:04.244       lsvc   4084  10132    2            anynet.connection_mgr - New user data. Client-ID: 1491209042.
+  error 2024-11-26 17:27:04.514       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(60)
+warning 2024-11-26 17:27:06.799      front   4200   9724                     gui.privacy_panel - Could not retrieve user picture (app.bitmap The system cannot find the path specified. (0x80070003)).
+warning 2024-11-26 17:27:14.994      front   4200   9724                          account_info - Could not read account info from config.
+warning 2024-11-26 17:27:14.994      front   4200   9724                          account_info - Could not read account info from config.
+warning 2024-11-26 17:27:14.994      front   4200   9724                          account_info - Could not read account info from config.
+   info 2024-11-26 17:27:16.336      front   4200   9724                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:27:16.336      front   4200   9300                      win_app.frontend - Frontend is shutting down.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132    9                      app.service - IPC socket closed.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132                       fiber.scheduler - Fiber 9 requested quit of fiber 11.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132   11                      fiber.fiber - Received quit.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132                       fiber.scheduler - Fiber 11 terminated.
+   info 2024-11-26 17:27:16.337      front   4200   9300                      win_app.frontend - Frontend shutdown.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132    9                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132                       fiber.scheduler - Fiber 9 terminated.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132    1                      app.service - Process stop: 4200.
+   info 2024-11-26 17:27:16.337       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts disabled.
+   info 2024-11-26 17:27:16.343      front   4200   9300                            app.roster - Updating the jump list
+   info 2024-11-26 17:27:16.345      front   4200   9300                  os_win.jump_list_mgr - 0 items found
+   info 2024-11-26 17:27:16.358      front   4200   9300                      win_app.frontend - Frontend terminated.
+   info 2024-11-26 17:27:16.358      front   4200   9724                      win_app.frontend - Terminating.
+   info 2024-11-26 17:27:16.364      front   4200   9724              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:27:16.366      front   4200   9724                                  main - Terminated.
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * Checksum 1b8e6bc34e8cd533b5d7281935ff2761
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * Build 20220808112342
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - * Copyright (C) 2022 AnyDesk Software GmbH *
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - 
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - Process started at 2024-11-26. PID 9428. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:27:16.541      front   9428   7016                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:27:16.541      front   9428   7016                                  main - Install status: not installed (<4)
+   info 2024-11-26 17:27:16.541      front   9428   7016          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:27:16.541      front   9428   7016          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:27:16.573      front   9428   7016                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:27:16.573      front   9428   7016                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:27:16.573      front   9428   7016                       base.signal.hub - 12 threads.
+warning 2024-11-26 17:27:16.588      front   9428   7016                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+warning 2024-11-26 17:27:16.588      front   9428   7016                          account_info - Could not read account info from config.
+   info 2024-11-26 17:27:16.588      front   9428   7016                            app.roster - Updating the jump list
+   info 2024-11-26 17:27:16.588      front   9428   7016                  os_win.jump_list_mgr - 0 items found
+   info 2024-11-26 17:27:16.604      front   9428   7016                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:27:16.604      front   9428   8396                      win_app.frontend - Frontend startup (elevated).
+   info 2024-11-26 17:27:16.604      front   9428   8396                   fiber.ipc_namespace - Global: no
+   info 2024-11-26 17:27:16.604      front   9428   8396                      win_app.frontend - Logging the frontend in.
+   info 2024-11-26 17:27:16.604      front   9428   8396             app.named_process_starter - Spawning local service.
+   info 2024-11-26 17:27:16.604      front   9428   8396             app.named_process_starter - Using existing control (1736).
+   info 2024-11-26 17:27:16.604       lsvc   4084  10132    1                      app.service - Process start: 9428 (frontend).
+   info 2024-11-26 17:27:16.604       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts enabled.
+warning 2024-11-26 17:27:16.604      front   9428   8396                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 24 (parent 1).
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132   24                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132   24                      app.service - Connected to 9428 (frontend).
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132   24                      app.service - Process login detected.
+   info 2024-11-26 17:27:16.620       lsvc   4084  10132   24                  fiber.scheduler - Spawning child fiber 25 (parent 24).
+warning 2024-11-26 17:27:16.642      front   9428   7016                              internal - Could not open process 4200 (0x00000057).
+warning 2024-11-26 17:27:16.642      front   9428   7016                              internal - Could not get module file name (0x00000006).
+   info 2024-11-26 17:27:16.642      front   9428   7016                        gui.mainwindow - Main window created (standard mode).
+   info 2024-11-26 17:27:16.673      front   9428   7016                      win_app.frontend - Disallowing Google Chrome offer (no permission: 0x00000000 & 0x00000001).
+   info 2024-11-26 17:27:16.673      front   9428   8396                      win_app.frontend - Received process login response.
+  error 2024-11-26 17:27:16.673      front   9428   8396                    os_win.fs_sentinel - Failed to monitor 'C:\Users\Public\AccountPictures\S-1-5-21-3387012414-4196568787-3877765190-1002' (2).
+   info 2024-11-26 17:27:16.673      front   9428   8396                      win_app.frontend - Requesting Google Chrome compatibility check.
+warning 2024-11-26 17:27:16.673      front   9428   8396                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:27:16.673      front   9428   8396                      win_app.frontend - Frontend startup complete.
+warning 2024-11-26 17:27:16.689      front   9428   7016                          account_info - Could not read account info from config.
+warning 2024-11-26 17:27:16.689      front   9428   7016                          account_info - Could not read account info from config.
+   info 2024-11-26 17:27:16.811      front   9428   1296                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:27:16.990       lsvc   4084  10132   24                            gcpsa - Downloading gcapi.dll.
+   info 2024-11-26 17:27:17.058       lsvc   4084  10132   24               app.fib_downloader - Canceled download of 'gcapi.dll'. A file with matching hash already exists in C:\Temp\AnyDeskPortableTemp.
+  error 2024-11-26 17:27:17.058       lsvc   4084  10132   24                            gcpsa - Failed to delete file. (0x00000004 'io_access_denied')
+warning 2024-11-26 17:27:17.058       lsvc   4084  10132   24                            gcpsa - Could not write file. (0x00000004)
+   info 2024-11-26 17:27:17.058      lctrl   1736   6268                        ad_app.control - Received GCP response (10, 1, 0, 0).
+   info 2024-11-26 17:27:25.139      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:27:25.145      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:27:38.085      front   9428   7016                      win_app.frontend - Disallowing Google Chrome offer (no permission: 0x00000000 & 0x00000001).
+   info 2024-11-26 17:27:41.546      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:27:41.556      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:27:54.729      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:27:54.729      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:28:00.332      front   9428   7016                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:28:01.528      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132    4                anynet.any_socket - Accept request from 1135563491 (via relay).
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132    1                      app.service - New ANY connection.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 26 (parent 1).
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   26                      app.service - Creating a ANY accept socket.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 8192
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   26                  fiber.scheduler - Spawning root fiber 27.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   27                anynet.any_socket - Accept fiber spawned.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   27                  fiber.scheduler - Spawning root fiber 28.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   27                anynet.any_socket - Accepting from 1135563491.
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   27                anynet.any_socket - Retrieving client information.
+  error 2024-11-26 17:30:10.264       lsvc   4084  10132    3                      anynet.conn - Could not send token - packet-type(6)
+   info 2024-11-26 17:30:10.264       lsvc   4084  10132   28              anynet.tcp_acceptor - Listening on TCP port 7070.
+   info 2024-11-26 17:30:10.264       lsvc   4084   3052                   anynet.tcp_acceptor - Attempting UPnP forwarding to port 7070.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Client-ID: 1135563491 (FPR: adc060ec4915).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Logged in from 213.87.130.56:38844 on relay 9e3bbafe.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27            anynet.connection_mgr - Making a new connection to client adc060ec49157d4bb2ca0f7bb5f79ec9219d21a1.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                  fiber.scheduler - Spawning root fiber 29.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Accepting the connect request.
+  error 2024-11-26 17:30:10.364       lsvc   4084  10132   27                      anynet.conn - Could not send token - packet-type(11)
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132    3                anynet.relay_conn - Punch socket set up on port 52380.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Connect request accepted, tunnel route created.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Local vport: 10, Remote vport: 10, SID: 1729338815550918
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Sending 0 queued blobs.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Initiating the managed connection.
+warning 2024-11-26 17:30:10.364       lsvc   4084  10132   27                anynet.any_socket - Unexpected: connect_msg_t.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   29                  fiber.scheduler - Spawning child fiber 30 (parent 29).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30           anynet.punch_connector - Spawning fibers for 3 potential connect addresses.
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30           anynet.punch_connector - -> Spawning: 213.87.130.56:41051 (0).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30                  fiber.scheduler - Spawning child fiber 31 (parent 30).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30           anynet.punch_connector - -> Spawning: 10.54.202.238:7070 (1).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30                  fiber.scheduler - Spawning child fiber 32 (parent 30).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30           anynet.punch_connector - -> Spawning: 213.87.130.56:7070 (2).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   30                  fiber.scheduler - Spawning child fiber 33 (parent 30).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connecting (lport 52380, attempt 0).
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   32           anynet.punch_connector - [10.54.202.238:7070] Connecting
+   info 2024-11-26 17:30:10.364       lsvc   4084  10132   33           anynet.punch_connector - [213.87.130.56:7070] Connecting
+   info 2024-11-26 17:30:10.533       lsvc   4084  10132   26                      app.service - Using protocol version 4.
+   info 2024-11-26 17:30:10.533       lsvc   4084  10132   26                      app.session - Session features: deskrt, clipboard, chat, audio, input, tcp_tunnel.
+   info 2024-11-26 17:30:10.533       lsvc   4084  10132   26                      app.session - get session id
+   info 2024-11-26 17:30:10.533       lsvc   4084  10132   26                      app.session - Connecting to current session 1.
+   info 2024-11-26 17:30:10.549       lsvc   4084  10132   26                      app.session - Allowed interactive logon because there is a frontend.
+   info 2024-11-26 17:30:10.549       lsvc   4084  10132   26                      app.session - Starting a new  backend in session 1.
+   info 2024-11-26 17:30:10.549       lsvc   4084  10132   26          win_app.process_starter - Spawning backend (elevated 1, session 1).
+   info 2024-11-26 17:30:10.549       lsvc   4084  10132   26          win_app.process_starter - Attempting to spawn the backend as system user.
+   info 2024-11-26 17:30:10.549       lsvc   4084   3052                   anynet.tcp_acceptor - UPnP mapping exists. Remote port 26360.
+warning 2024-11-26 17:30:10.549       lsvc   4084  10132   26                     base.process - Could not open process 984. Access is denied. (0x00000005)
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   26          win_app.process_starter - Backend spawned as system user.
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   26                      app.session - Backend PID: 4176
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   26                      app.session - 1: Connecting to the backend.
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   26                      app.session - 1: IPC connection established.
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   26                      app.session - 2: Requesting a session at the backend.
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132   28              anynet.tcp_acceptor - Registering the UPnP-forwarded port.
+   info 2024-11-26 17:30:10.680       lsvc   4084  10132    1                      app.service - Process start: 4176 (backend:1).
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:30:10.950       back   4176   3352                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:30:10.950       back   4176   3352                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:30:10.950       back   4176   3352                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:30:10.950       back   4176   3352                                  main - 
+   info 2024-11-26 17:30:10.950       back   4176   3352                                  main - Process started at 2024-11-26. PID 4176. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:30:10.950       back   4176   3352                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:30:10.950       back   4176   3352          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:30:10.950       back   4176   3352          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:30:10.981       back   4176   3352                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:30:10.981       back   4176   3352                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:30:10.997       back   4176   3352                       base.signal.hub - 12 threads.
+   info 2024-11-26 17:30:10.997       back   4176   3352          capture.privacy_feature_dwm1 - Using surrogate.
+   info 2024-11-26 17:30:11.066       back   4176   3352                       win_app.backend - Starting backend.
+   info 2024-11-26 17:30:11.066       back   4176   5232                       win_app.backend - Backend is starting up.
+  error 2024-11-26 17:30:11.066       back   4176   5232                      base.ipc.section - Couldn't open the SHM 'Global\ad_7014_gsystem_shm' (2).
+   info 2024-11-26 17:30:11.066       back   4176   5232             app.named_process_starter - Using existing control (1736).
+   info 2024-11-26 17:30:11.066       back   4176   5232                       win_app.backend - Using local namespace.
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 34 (parent 1).
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132   34                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132   34                      app.service - Connected to 4176 (backend:1).
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132   34                      app.service - Process login detected.
+   info 2024-11-26 17:30:11.066       back   4176   1144                       win_app.backend - Incoming IPC connection.
+   info 2024-11-26 17:30:11.066       back   4176   1680                       win_app.backend - Backend startup finished.
+   info 2024-11-26 17:30:11.066       lsvc   4084  10132   34                  fiber.scheduler - Spawning child fiber 35 (parent 34).
+   info 2024-11-26 17:30:11.081       back   4176   1144                   app.backend_session - Initializing session.
+   info 2024-11-26 17:30:11.081       back   4176   1144                       win_app.backend - Session count: 1
+   info 2024-11-26 17:30:11.081       back   4176   5232                       win_app.backend - Backend startup finished.
+   info 2024-11-26 17:30:11.081       back   4176   5232                   app.backend_session - Starting sockets.
+   info 2024-11-26 17:30:11.081       back   4176   3680                   app.backend_session - Incoming session request: POCO 2404APC5FG (1135563491)
+   info 2024-11-26 17:30:11.096       back   4176   3352                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:30:11.097       back   4176   3680                   app.backend_session - Remote caps: sound_src, sound_sink, keyboard2, clip_paste_files, clip_src_files, keyboard_unicode, sysinfo, volatile_token, keyb_hint_sink, filetransfer_server, android_keys, tcp_tunnel, vpn, motion_input, encoder_reset, two_factor_auth, force_remote_restart, lossless_codec, string_input, quality_adaptive, clipboard_split, 42, 43
+   info 2024-11-26 17:30:11.097       back   4176   3680                   app.backend_session - Remote OS: Android, Connection flags: direct paid 3 4 
+   info 2024-11-26 17:30:11.097       back   4176   3680                   app.backend_session - Remote version: 7.2.0
+   info 2024-11-26 17:30:11.097       back   4176   3680                   app.backend_session - Trying to register a new backend session.
+   info 2024-11-26 17:30:11.112       back   4176   6252              win_app.desktop_switcher - Desktop change:  --> Default
+   info 2024-11-26 17:30:11.112       back   4176   6252              win_app.desktop_switcher - Suspending capture.
+   info 2024-11-26 17:30:11.112       back   4176   6252              capture.fallback_capture - Switching to none.
+   info 2024-11-26 17:30:11.112       back   4176   6252              win_app.desktop_switcher - Initiating the desktop switch.
+   info 2024-11-26 17:30:11.156       back   4176   3680                   app.backend_session - Requesting to restore permissions.
+   info 2024-11-26 17:30:11.156       back   4176   7096                   app.backend_session - Restoring permissions. (action: 3; state: 3)
+   info 2024-11-26 17:30:11.156       back   4176   7096                   app.backend_session - Initializing permissions.
+   info 2024-11-26 17:30:11.157       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.157       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.157       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.158       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.159       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.159       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.159       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.159       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.159       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.160       back   4176   7096                   app.backend_session - Requesting to store permissions.
+warning 2024-11-26 17:30:11.160       back   4176   7096                   app.backend_session - Cannot set permission 4 to on. Permission is forced to off.
+   info 2024-11-26 17:30:11.160       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.160       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.161       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.161       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.161       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.161       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.161       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.162       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.162       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.162       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.162       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.163       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.163       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.163       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.164       back   4176   7096                   app.backend_session - Requesting to store permissions.
+warning 2024-11-26 17:30:11.164       back   4176   7096                   app.backend_session - Cannot set permission 10 to on. Permission is forced to off.
+   info 2024-11-26 17:30:11.164       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.164       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.164       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.164       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.165       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.165       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.165       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.165       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.165       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.166       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.166       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.166       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.167       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.167       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.167       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.167       back   4176   7096                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:30:11.167       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.168       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.169       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.169       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.170       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.171       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.171       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.171       back   4176   7096                   app.backend_session - Checking capabilities.
+   info 2024-11-26 17:30:11.172       back   4176   7096                   app.backend_session - Acknowledging session.
+   info 2024-11-26 17:30:11.172       lsvc   4084  10132   26                      app.session - Waiting to receive.
+   info 2024-11-26 17:30:11.172       lsvc   4084  10132   26                      app.session - Send route info for the accept window.
+   info 2024-11-26 17:30:11.172       lsvc   4084  10132   26                      app.session - 2: Session acknowledged.
+   info 2024-11-26 17:30:11.172       lsvc   4084  10132   26                      app.session - 3: Authentication 75 0.
+   info 2024-11-26 17:30:11.173       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.173       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.177       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.200       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.201       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.205       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:11.207       back   4176   6252                   desk_rt.auto_adjust - Route type: tunnel (internet)
+   info 2024-11-26 17:30:11.208       back   4176   5232              win_app.desktop_switcher - Desktop switch finished. Restarting capture.
+   info 2024-11-26 17:30:11.208       back   4176   5232              capture.fallback_capture - Switching to dda.
+   info 2024-11-26 17:30:11.208       back   4176   5232              capture.fallback_capture - Selecting DDA capture.
+   info 2024-11-26 17:30:11.209       back   4176   5232              win_app.desktop_switcher - Resuming the poll timer.
+   info 2024-11-26 17:30:11.209       back   4176   5232              audio.core_audio_capture - Initializing Core Audio capture. Target frame length 20 ms
+   info 2024-11-26 17:30:11.250       back   4176   5232              audio.core_audio_capture - Buffer sizes do not match (3840, 4224).
+   info 2024-11-26 17:30:11.250       back   4176   5232              audio.core_audio_capture - Audio loopback capture initialized. ch=2, bps=16, sps=48000 Hz, bufsize = 4224, flen 22000 us, dev. p. = 0
+   auth 2024-11-26 17:30:14.975       lsvc   4084  10132   26                      app.session - Authenticated by local user.
+  error 2024-11-26 17:30:14.975       lsvc   4084  10132   26                      anynet.conn - Could not send token - packet-type(15)
+   info 2024-11-26 17:30:14.975       lsvc   4084  10132   26                      app.session - 4: Waiting for the backend to be ready.
+  error 2024-11-26 17:30:14.975      lctrl   1736   6268              base.prot.packet_factory - Invalid packet received (type=104, 0 bytes).
+  error 2024-11-26 17:30:14.975      lctrl   1736   6268                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2024-11-26 17:30:14.977       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:14.977       back   4176   5232                   app.backend_session - Starting session (deskrt, clipboard, chat, audio, input, tcp_tunnel).
+   info 2024-11-26 17:30:14.977       back   4176   5232                       desk_rt.encoder - 6 segments.
+   info 2024-11-26 17:30:14.977       back   4176   5232                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:30:14.978       back   4176   5232                   app.backend_session - Suspending session start until further notice.
+   info 2024-11-26 17:30:14.986       back   4176   5232                   app.backend_session - Continueing session start.
+   info 2024-11-26 17:30:14.986       back   4176   5232             desk_rt.capture_component - Starting capture.
+   info 2024-11-26 17:30:14.986      lctrl   1736   6268                        ad_app.control - Session count: (1, 1)
+   info 2024-11-26 17:30:14.986      lctrl   1736   6268                       clipbrd.capture - Registered for clipboard notifications.
+   info 2024-11-26 17:30:14.986      lctrl   1736   6268                    app.ctrl_clip_comp - Ready.
+   info 2024-11-26 17:30:14.986      lctrl   1736   6268                     win_app.wallpaper - Starting wallpaper.
+   info 2024-11-26 17:30:14.986       back   4176   9156            capture.dda_stream_capture - Initializing D3D.
+   info 2024-11-26 17:30:14.987      lctrl   1736   3428                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:30:14.988       back   4176   5232             desk_rt.capture_component - Sending screen privacy status: off (no change).
+   info 2024-11-26 17:30:14.988       back   4176   1144             desk_rt.capture_component - Keyboard layout changed to: unknown
+   info 2024-11-26 17:30:14.988       back   4176   1144             desk_rt.capture_component - Focused monitor changed: 0 (\\.\DISPLAY1)
+   info 2024-11-26 17:30:14.988       back   4176   5232                        app.mouse_sink - Starting mouse sink.
+   info 2024-11-26 17:30:14.991       lsvc   4084  10132   26                      app.session - 4: Backend ready.
+   info 2024-11-26 17:30:14.991       lsvc   4084  10132   26                      app.session - 5: Entering processing loop.
+   info 2024-11-26 17:30:14.991       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 8192
+   info 2024-11-26 17:30:14.991       lsvc   4084  10132   26        app.named_process_starter - Using existing control (1736).
+   info 2024-11-26 17:30:14.991       back   4176   5232                   app.backend_session - Sending input (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.991       back   4176   5232                   app.backend_session - Sending audio (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.991       back   4176   5232                   app.backend_session - Sending clipboard (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.991       back   4176   5232                   app.backend_session - Sending block input (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending SAS (0) permissions (forbidden unsupported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending file manager (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending lock account (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending record session (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending whiteboard (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending TCP tunneling (10) permissions (enabled forbidden supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending VPN (2) permissions (enabled forbidden unsupported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending privacy (8) permissions (forbidden supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending clilpboard files (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending restart (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending sysinfo (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Sending mouse pointer (9) permissions (allowed supported)
+   info 2024-11-26 17:30:14.992       back   4176   5232                   app.backend_session - Requesting to store permissions.
+  error 2024-11-26 17:30:14.992       back   4176   1644              base.prot.packet_factory - Invalid packet received (type=78, 2 bytes).
+  error 2024-11-26 17:30:14.992       back   4176   1644                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2024-11-26 17:30:14.992       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 8192
+   info 2024-11-26 17:30:14.992       lsvc   4084  10132   26                      app.session - Updating local clipboard forwarding (1).
+   info 2024-11-26 17:30:14.992       lsvc   4084  10132   26                      app.session - Updating local clipboard forwarding (3).
+   info 2024-11-26 17:30:14.996       back   4176   8624             desk_rt.capture_component - Keyboard layout changed to: unknown
+   info 2024-11-26 17:30:14.996       back   4176   8624             desk_rt.capture_component - Focused monitor changed: 0 (\\.\DISPLAY1)
+   info 2024-11-26 17:30:14.996       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:14.996      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:14.997      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:30:15.005       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:15.006      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:15.012       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:30:15.016       back   4176   5232                   app.backend_session - Session started (ok).
+   info 2024-11-26 17:30:15.018       back   4176   7096                   desk_rt.auto_adjust - Route type: tunnel (internet)
+   info 2024-11-26 17:30:15.022       back   4176   2368                   desk_rt.hdd_monitor - Initializing.
+   info 2024-11-26 17:30:15.106       back   4176   9156            capture.dda_stream_capture - Initializing DXGI.
+   info 2024-11-26 17:30:15.106       back   4176   9156            capture.dda_stream_capture - Output name '\\.\DISPLAY1'
+   info 2024-11-26 17:30:15.106       back   4176   9156            capture.dda_stream_capture - Using '\\.\DISPLAY1' (1)
+   info 2024-11-26 17:30:15.140       back   4176   9156            capture.dda_stream_capture - Starting capture on .
+   info 2024-11-26 17:30:15.197      lctrl   1736   3428                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:30:15.197      lctrl   1736   6268                  win_app.screen_frame - Created.
+   info 2024-11-26 17:30:15.197      lctrl   1736   6268                        ad_app.control - Session count: (1, 1)
+   info 2024-11-26 17:30:15.198      lctrl   1736   6268                        ad_app.control - Session count: (1, 1)
+   info 2024-11-26 17:30:15.260       back   4176   3680                   app.backend_session - Received new gui feedback parameters (0).
+   info 2024-11-26 17:30:15.260       back   4176   8624                   app.backend_session - Received new mouse cursor parameters (2).
+   info 2024-11-26 17:30:15.260       back   4176   1144                   app.backend_session - Received new image quality (7).
+   info 2024-11-26 17:30:15.260       back   4176   1644                   app.backend_session - Received new video quality (20).
+  error 2024-11-26 17:30:15.260       back   4176   7408                   app.backend_session - Received invalid parameters packet 24 (0).
+  error 2024-11-26 17:30:15.260       back   4176   6252              base.prot.packet_factory - Invalid packet received (type=64, 6 bytes).
+   info 2024-11-26 17:30:15.260       back   4176   3680           desk_rt.system_event_source - Disabled gui feedback
+   info 2024-11-26 17:30:15.260       back   4176   1680                   app.backend_session - Enabling capture.
+   info 2024-11-26 17:30:15.260       back   4176   8624           desk_rt.system_event_source - Enabled mouse cursor
+   info 2024-11-26 17:30:15.260       back   4176  11244                   app.backend_session - Received new audio parameters (1).
+   info 2024-11-26 17:30:15.260       back   4176   2492                   app.backend_session - Received new auto-quality preset (1).
+   info 2024-11-26 17:30:15.260       back   4176   2492                   desk_rt.auto_adjust - New preset: 0.
+   info 2024-11-26 17:30:15.270       back   4176   1144                   app.backend_session - Received new lock account parameters (0).
+   info 2024-11-26 17:30:15.284       back   4176   7408                       desk_rt.encoder - Format changed to 2560x1440 (X8R8G8B8).
+   info 2024-11-26 17:30:15.284       back   4176   7408                       desk_rt.encoder - Subsampling changed to 420
+   info 2024-11-26 17:30:15.811       back   4176   6252                   app.backend_session - Received a thumbnail request.
+   info 2024-11-26 17:30:15.868       back   4176   6252                   app.backend_session - Sending a new thumbnail.
+   info 2024-11-26 17:30:25.379       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connect failed (result_timeout)).
+   info 2024-11-26 17:30:25.379       lsvc   4084  10132   32           anynet.punch_connector - [10.54.202.238:7070] Connection failed (result_timeout)).
+   info 2024-11-26 17:30:25.379       lsvc   4084  10132                       fiber.scheduler - Fiber 32 terminated.
+   info 2024-11-26 17:30:25.379       lsvc   4084  10132   33           anynet.punch_connector - [213.87.130.56:7070] Connection failed (result_timeout)).
+   info 2024-11-26 17:30:25.379       lsvc   4084  10132                       fiber.scheduler - Fiber 33 terminated.
+   info 2024-11-26 17:30:25.643       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connecting (lport 52380, attempt 1).
+   info 2024-11-26 17:30:40.648       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connect failed (result_timeout)).
+   info 2024-11-26 17:30:40.911       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connecting (lport 52380, attempt 2).
+   info 2024-11-26 17:30:44.687       back   4176   6252                   app.backend_session - Received new lossless image setting (1).
+   info 2024-11-26 17:30:44.688       back   4176   7408                   app.backend_session - Received new auto-quality preset (1).
+   info 2024-11-26 17:30:44.688       back   4176   7408                   desk_rt.auto_adjust - New preset: 0.
+   info 2024-11-26 17:30:45.028       back   4176   1680                       desk_rt.encoder - Format changed to 2560x1440 (X8R8G8B8).
+   info 2024-11-26 17:30:45.028       back   4176   1680                       desk_rt.encoder - Subsampling changed to 444
+   info 2024-11-26 17:30:55.925       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connect failed (result_timeout)).
+   info 2024-11-26 17:30:56.190       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connecting (lport 52380, attempt 3).
+   info 2024-11-26 17:31:07.795       back   4176   2492             desk_rt.capture_component - Keyboard layout changed to: en_us
+   info 2024-11-26 17:31:11.196       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Connect failed (result_timeout)).
+  error 2024-11-26 17:31:11.196       lsvc   4084  10132   31           anynet.punch_connector - [213.87.130.56:41051] Too many retries.
+   info 2024-11-26 17:31:11.196       lsvc   4084  10132                       fiber.scheduler - Fiber 31 terminated.
+   info 2024-11-26 17:31:11.196       lsvc   4084  10132   30           anynet.punch_connector - All connect fibers have failed.
+   info 2024-11-26 17:31:15.779       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 16384
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132   30           anynet.punch_connector - Quit timeout has expired. Connect failed.
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132                       fiber.scheduler - Fiber 30 terminated.
+  error 2024-11-26 17:31:16.200       lsvc   4084  10132   29       anynet.managed_client_conn - Connect error (result_unknown).
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132   29            anynet.connection_mgr - Forcing cleanup.
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132   29       anynet.managed_client_conn - Managed client connection failed.
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132                       fiber.scheduler - Fiber 29 terminated.
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132    2            anynet.connection_mgr - Managed client connection with adc060ec49157d4bb2ca0f7bb5f79ec9219d21a1 failed (result_unknown).
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132    2            anynet.connection_mgr - Cleaned up 1/1 managed client connections.
+   info 2024-11-26 17:31:16.200       lsvc   4084  10132   27                anynet.any_socket - Direct connection closed (result_unknown).
+   info 2024-11-26 17:31:16.480       back   4176   1680                   desk_rt.auto_adjust - Forced adjust because of a timeout (261828,76 kb/s).
+   info 2024-11-26 17:31:16.480       back   4176   1680                   desk_rt.auto_adjust - Adjusting for >= 1.500 kb/s
+   info 2024-11-26 17:31:16.480       back   4176   1680                    audio.opus_encoder - Bitrate set to 260309 bits/s.
+  error 2024-11-26 17:31:16.485       back   4176   1680            taskbar_animation_modifier - Couldn't set value (5).
+   info 2024-11-26 17:31:16.534       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 24576
+   info 2024-11-26 17:31:16.543       lsvc   4084  10132   26         anynet.client_packetizer - Adjusted send buffer: 32768
+   info 2024-11-26 17:31:28.878       back   4176   3352                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:31:30.635       back   4176   3352                   app.backend_session - Sending lock account (13) permissions (disabled allowed supported)
+   info 2024-11-26 17:31:30.635       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.635       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.638       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.638       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.640       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.640       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.641       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.641       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+warning 2024-11-26 17:31:30.642       back   4176   3352                   app.backend_session - Cannot set permission 4 to on. Permission is forced to off.
+   info 2024-11-26 17:31:30.642       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.643       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.644       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.644       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.646       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.646       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.648       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.648       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.649       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.649       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.650       back   4176   3352                   app.backend_session - Sending TCP tunneling (11) permissions (enabled allowed supported)
+   info 2024-11-26 17:31:30.650       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.650       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+warning 2024-11-26 17:31:30.651       back   4176   3352                   app.backend_session - Cannot set permission 10 to on. Permission is forced to off.
+   info 2024-11-26 17:31:30.651       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.651       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.653       back   4176   3352                   app.backend_session - Sending privacy (9) permissions (allowed supported)
+   info 2024-11-26 17:31:30.653       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.653       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.654       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.654       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.655      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:31:30.655      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:31:30.655       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.655       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.657       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.657       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.658       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.658       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.659       back   4176   3352          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:31:30.659       back   4176   3352                   app.backend_session - Requesting to store permissions.
+   info 2024-11-26 17:31:30.664      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:31:30.861       lsvc   4084  10132   26            app.tcp_tunnel.config - deserialized rules 2
+   info 2024-11-26 17:31:30.861       lsvc   4084  10132   26            app.tcp_tunnel.config - Forward rules:
+   info 2024-11-26 17:31:30.861       lsvc   4084  10132   26           app.session_tcp_tunnel - Received setup request.
+   info 2024-11-26 17:31:30.861       lsvc   4084  10132   26           app.session_tcp_tunnel - Starting. Namespace: E48B1159
+   info 2024-11-26 17:31:32.827       back   4176   7408                      gui.arrow_window - Created.
+   info 2024-11-26 17:32:23.565       back   4176   3352                   app.backend_session - The user has requested a connection quit.
+   info 2024-11-26 17:32:23.565       back   4176   3352                       win_app.backend - Disabling backend.
+   info 2024-11-26 17:32:23.565       lsvc   4084  10132   26                      app.session - Session closed locally: desk_rt_user_close.
+   info 2024-11-26 17:32:23.565       back   4176   5232                   app.backend_session - Stopping session.
+   info 2024-11-26 17:32:23.566       lsvc   4084  10132   26                      app.session - 5: Processing done.
+  error 2024-11-26 17:32:23.566       back   4176   1144              base.prot.packet_factory - Invalid packet received (type=78, 2 bytes).
+  error 2024-11-26 17:32:23.566       back   4176   1144                        hub_ipc_socket - IPC packet deserialization failed.
+   info 2024-11-26 17:32:23.566       back   4176   7096                   app.backend_session - The socket was closed remotely.
+   info 2024-11-26 17:32:23.566       lsvc   4084  10132                       fiber.scheduler - Fiber 26 requested quit of fiber 27.
+   info 2024-11-26 17:32:23.566       lsvc   4084  10132   27                anynet.any_socket - Received quit.
+   info 2024-11-26 17:32:23.566       lsvc   4084  10132   27                anynet.any_socket - Accept fiber stopped.
+   info 2024-11-26 17:32:23.566       lsvc   4084  10132                       fiber.scheduler - Fiber 27 terminated.
+   info 2024-11-26 17:32:23.567       lsvc   4084  10132   26                      app.service - Fiber exit (net).
+   info 2024-11-26 17:32:23.567       lsvc   4084  10132                       fiber.scheduler - Fiber 26 terminated.
+  error 2024-11-26 17:32:23.567      lctrl   1736   6268                    app.tunnel_ft_comp - Invalid session id in cancel operation (26).
+   info 2024-11-26 17:32:23.567      lctrl   1736   6268                        ad_app.control - Session count: (0, 0)
+   info 2024-11-26 17:32:23.567       lsvc   4084  10132    1                      app.service - Process stop: 4176.
+   info 2024-11-26 17:32:23.567      lctrl   1736   6268                       clipbrd.capture - Unregistered clipboard notification.
+   info 2024-11-26 17:32:23.567      lctrl   1736   6268                    app.ctrl_clip_comp - Terminated.
+   info 2024-11-26 17:32:23.567      lctrl   1736   3428                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:32:23.570      lctrl   1736   6268                  win_app.screen_frame - Destroyed.
+   info 2024-11-26 17:32:23.573       back   4176   3352                       win_app.backend - Initiating shutdown.
+   info 2024-11-26 17:32:23.577       back   4176   5232              audio.core_audio_capture - Cleaning up.
+   info 2024-11-26 17:32:23.580       back   4176   5232                   app.backend_session - Session stopped.
+   info 2024-11-26 17:32:23.581       back   4176   5232                   app.backend_session - Destroyed.
+   info 2024-11-26 17:32:23.581       back   4176   5232              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:32:23.581       back   4176   5232                       win_app.backend - Session count: 0
+   info 2024-11-26 17:32:23.581       back   4176   5232                       win_app.backend - Backend is shutting down.
+   info 2024-11-26 17:32:23.581      lctrl   1736   6268                        ad_app.control - Session count: (0, 0)
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132   34                      app.service - IPC socket closed.
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132                       fiber.scheduler - Fiber 34 requested quit of fiber 35.
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132   35                      fiber.fiber - Received quit.
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132                       fiber.scheduler - Fiber 35 terminated.
+   info 2024-11-26 17:32:23.582       back   4176   5232                       win_app.backend - Backend terminating.
+   info 2024-11-26 17:32:23.582       back   4176   5232              capture.fallback_capture - Switching to dead.
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132   34                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:32:23.582       lsvc   4084  10132                       fiber.scheduler - Fiber 34 terminated.
+   info 2024-11-26 17:32:23.582       back   4176   5232            capture.dda_stream_capture - Stopping.
+   info 2024-11-26 17:32:23.606       back   4176   9156            capture.dda_stream_capture - Releasing the pool
+   info 2024-11-26 17:32:23.606       back   4176   9156            capture.dda_stream_capture - Capture stopped.
+   info 2024-11-26 17:32:23.633       back   4176   5232            capture.dda_stream_capture - Stopped.
+   info 2024-11-26 17:32:23.633       back   4176   5232                   desk_rt.dda_capture - Stopped.
+   info 2024-11-26 17:32:25.634       back   4176   5232                       win_app.backend - Backend has been stopped.
+   info 2024-11-26 17:32:25.634       back   4176   3352                       win_app.backend - Terminating.
+   info 2024-11-26 17:32:25.634       back   4176   3352                       win_app.backend - Terminated.
+  error 2024-11-26 17:32:25.634       back   4176   3352            taskbar_animation_modifier - Couldn't set value (5).
+   info 2024-11-26 17:32:25.644       back   4176   3352              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:32:25.644       back   4176   3352              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:32:25.644       back   4176   3352                                  main - Terminated.
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * Checksum 1b8e6bc34e8cd533b5d7281935ff2761
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * Build 20220808112342
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - * Copyright (C) 2022 AnyDesk Software GmbH *
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - 
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - Process started at 2024-11-26. PID 3520. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:33:00.223      front   3520   1288                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:33:00.223      front   3520   1288                                  main - Install status: not installed (<4)
+   info 2024-11-26 17:33:00.223      front   3520   1288          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:33:00.223      front   3520   1288          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:33:00.243      front   3520   1288                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:33:00.243      front   3520   1288                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:33:00.253      front   3520   1288                       base.signal.hub - 12 threads.
+warning 2024-11-26 17:33:00.263      front   3520   1288                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+warning 2024-11-26 17:33:00.263      front   3520   1288                          account_info - Could not read account info from config.
+   info 2024-11-26 17:33:00.263      front   3520   1288                            app.roster - Updating the jump list
+   info 2024-11-26 17:33:00.263      front   3520   1288                  os_win.jump_list_mgr - 0 items found
+   info 2024-11-26 17:33:00.293      front   3520   1288                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:33:00.293      front   3520   4200                      win_app.frontend - Frontend startup (elevated).
+   info 2024-11-26 17:33:00.293      front   3520   4200                   fiber.ipc_namespace - Global: no
+   info 2024-11-26 17:33:00.293      front   3520   4200                      win_app.frontend - Logging the frontend in.
+   info 2024-11-26 17:33:00.293      front   3520   4200             app.named_process_starter - Spawning local service.
+   info 2024-11-26 17:33:00.293      front   3520   4200             app.named_process_starter - Using existing control (1736).
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132    1                      app.service - Process start: 3520 (frontend).
+warning 2024-11-26 17:33:00.293      front   3520   4200                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 36 (parent 1).
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132   36                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132   36                      app.service - Connected to 3520 (frontend).
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132   36                      app.service - Process login detected.
+   info 2024-11-26 17:33:00.293       lsvc   4084  10132   36                  fiber.scheduler - Spawning child fiber 37 (parent 36).
+   info 2024-11-26 17:33:00.313      front   3520   1288                        gui.mainwindow - Main window created (standard mode).
+   info 2024-11-26 17:33:00.343      front   3520   1288                      win_app.frontend - Disallowing Google Chrome offer (no permission: 0x00000000 & 0x00000001).
+   info 2024-11-26 17:33:00.343      front   3520   4200                      win_app.frontend - Received process login response.
+  error 2024-11-26 17:33:00.343      front   3520   4200                    os_win.fs_sentinel - Failed to monitor 'C:\Users\Public\AccountPictures\S-1-5-21-3387012414-4196568787-3877765190-1002' (2).
+   info 2024-11-26 17:33:00.343      front   3520   4200                      win_app.frontend - Requesting Google Chrome compatibility check.
+warning 2024-11-26 17:33:00.353      front   3520   4200                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:33:00.353      front   3520   4200                      win_app.frontend - Frontend startup complete.
+   info 2024-11-26 17:33:00.527      front   3520   1468                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:33:00.613       lsvc   4084  10132   36                            gcpsa - Downloading gcapi.dll.
+   info 2024-11-26 17:33:00.693       lsvc   4084  10132   36               app.fib_downloader - Canceled download of 'gcapi.dll'. A file with matching hash already exists in C:\Temp\AnyDeskPortableTemp.
+  error 2024-11-26 17:33:00.693       lsvc   4084  10132   36                            gcpsa - Failed to delete file. (0x00000004 'io_access_denied')
+warning 2024-11-26 17:33:00.693       lsvc   4084  10132   36                            gcpsa - Could not write file. (0x00000004)
+   info 2024-11-26 17:33:00.693      lctrl   1736   6268                        ad_app.control - Received GCP response (10, 1, 0, 0).
+warning 2024-11-26 17:33:27.734      front   3520   1288                          account_info - Could not read account info from config.
+warning 2024-11-26 17:33:27.734      front   3520   1288                          account_info - Could not read account info from config.
+   info 2024-11-26 17:34:04.879      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:34:04.889      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:34:14.535      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.058      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.058      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.058      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.068      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.068      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.078      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.088      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.088      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.088      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.098      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.098      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.108      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.118      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.118      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.128      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.128      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.128      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.138      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.148      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.148      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.158      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.158      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.158      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.168      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.178      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.178      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.188      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.188      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.188      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.198      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.208      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.208      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.218      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.228      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.228      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.228      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.238      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.238      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.248      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.258      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.258      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.268      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.268      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.268      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.278      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.298      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:39.298      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:39.308      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.199      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.199      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:41.209      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.229      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.229      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:41.239      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.770      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.770      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:41.770      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.790      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:41.790      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:41.800      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:42.090      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:42.090      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:42.100      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:42.120      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:42.120      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:35:42.120      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:44.291      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:35:55.599      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:35:56.729      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:35:59.079      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:00.310      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:00.310      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:00.320      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:08.535      front   3520   1288                     gui.revoke_tokens - All tokens have been revoked.
+   info 2024-11-26 17:36:09.516      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:09.526      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:09.536      front   9428   6120                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:09.546      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:10.996      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:13.647      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:14.357      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:37.180      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:37.180      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:37.190      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:37.200      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:37.200      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:37.210      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:37.210      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:37.230      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:37.230      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:37.240      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:37.250      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:37.250      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:37.260      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:38.581      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:39.421      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:40.411      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:44.895      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:45.955      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:46.725      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:47.325      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:47.936      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:52.739      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:52.739      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:52.739      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:36:52.739      front   3520   1288            permission_profile_manager - Previous session profiles cleared.
+   info 2024-11-26 17:36:52.759      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:52.759      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:52.769      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:53.979      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:54.899      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:54.899      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:54.909      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:36:55.630      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:36:57.991      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:57.991      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:58.001      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.011      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.011      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:58.021      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.031      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.031      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.031      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:58.041      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.051      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:36:58.051      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:36:58.061      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:01.692      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:37:04.493      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:37:05.553      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:37:05.553      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:05.553      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: Y
+   info 2024-11-26 17:37:06.173      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:06.173      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:06.183      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:06.193      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:06.193      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:06.203      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:06.213      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:06.233      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:06.233      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:06.233      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:06.243      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:06.243      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:06.253      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:07.764      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:09.035      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:37:09.517      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: N
+   info 2024-11-26 17:37:21.191      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:21.191      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:21.201      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:21.211      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:21.211      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:21.211      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _unattended_access, hasPw: N
+   info 2024-11-26 17:37:21.221      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:21.241      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:21.241      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:21.251      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:21.251      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:21.251      front   9428   7016                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:21.261      front   9428   7016          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:22.682      front   3520   1288                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:37:23.122      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+   info 2024-11-26 17:37:23.122      front   3520   1288                     one_time_password - Resetting 2FA key.
+   info 2024-11-26 17:37:23.131      front   3520   1288          winapp.gui.permissions_panel - Selecting Profile: _default, hasPw: Y
+warning 2024-11-26 17:37:52.305      front   3520   1288                     gui.privacy_panel - Could not retrieve user picture (app.bitmap The system cannot find the path specified. (0x80070003)).
+   info 2024-11-26 17:38:03.631      front   3520   1288                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:38:03.631      front   3520   4200                      win_app.frontend - Frontend is shutting down.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132   36                      app.service - IPC socket closed.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132                       fiber.scheduler - Fiber 36 requested quit of fiber 37.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132   37                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132                       fiber.scheduler - Fiber 37 terminated.
+   info 2024-11-26 17:38:03.631      front   3520   4200                      win_app.frontend - Frontend shutdown.
+   info 2024-11-26 17:38:03.631      front   3520   4200                      win_app.frontend - Frontend terminated.
+   info 2024-11-26 17:38:03.631      front   3520   1288                      win_app.frontend - Terminating.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132   36                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132                       fiber.scheduler - Fiber 36 terminated.
+   info 2024-11-26 17:38:03.631       lsvc   4084  10132    1                      app.service - Process stop: 3520.
+   info 2024-11-26 17:38:03.641      front   3520   1288              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:38:03.651      front   3520   1288                                  main - Terminated.
+   info 2024-11-26 17:38:05.432      front   9428   7016                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:38:05.432      front   9428   8396                      win_app.frontend - Frontend is shutting down.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132   24                      app.service - IPC socket closed.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132                       fiber.scheduler - Fiber 24 requested quit of fiber 25.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132   25                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132                       fiber.scheduler - Fiber 25 terminated.
+   info 2024-11-26 17:38:05.432      front   9428   8396                      win_app.frontend - Frontend shutdown.
+   info 2024-11-26 17:38:05.432      front   9428   8396                      win_app.frontend - Frontend terminated.
+   info 2024-11-26 17:38:05.432      front   9428   7016                      win_app.frontend - Terminating.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132   24                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132                       fiber.scheduler - Fiber 24 terminated.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132    1                      app.service - Process stop: 9428.
+   info 2024-11-26 17:38:05.432       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts disabled.
+   info 2024-11-26 17:38:05.453      front   9428   7016              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:38:05.453      front   9428   7016                                  main - Terminated.
+ * * * * * * * * * * * * * * * * * *
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * AnyDesk Windows Startup *
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * Version 7.0.14 (release/win_7.0.x 5cf8483107cd52198359a9504e0641fbe8cc59b3)
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * Custom Client (no ID)
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * Checksum 1b8e6bc34e8cd533b5d7281935ff2761
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * Build 20220808112342
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - * Copyright (C) 2022 AnyDesk Software GmbH *
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - 
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - Process started at 2024-11-26. PID 10236. OS is Windows 10 (64 bit)
+   info 2024-11-26 17:38:06.962      front  10236   1488                         impl_selector - using sse2 (intrinsics)
+   info 2024-11-26 17:38:06.962      front  10236   1488                                  main - Install status: not installed (<4)
+   info 2024-11-26 17:38:06.962      front  10236   1488          base.data.config_application - Adding GPO defaults layer.
+   info 2024-11-26 17:38:06.962      front  10236   1488          base.data.config_application - Adding GPO overrides layer.
+   info 2024-11-26 17:38:06.992      front  10236   1488                           gui.gui_app - DPI scaling: 1,00 / 1,00
+   info 2024-11-26 17:38:06.992      front  10236   1488                           gui.gui_app - Using std-resolution bitmaps.
+   info 2024-11-26 17:38:07.002      front  10236   1488                       base.signal.hub - 12 threads.
+warning 2024-11-26 17:38:07.012      front  10236   1488                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+warning 2024-11-26 17:38:07.012      front  10236   1488                          account_info - Could not read account info from config.
+   info 2024-11-26 17:38:07.012      front  10236   1488                            app.roster - Updating the jump list
+   info 2024-11-26 17:38:07.012      front  10236   1488                  os_win.jump_list_mgr - 0 items found
+   info 2024-11-26 17:38:07.032      front  10236   1488                          wgf.msg_loop - Waiting for events.
+   info 2024-11-26 17:38:07.032      front  10236   1144                      win_app.frontend - Frontend startup (elevated).
+   info 2024-11-26 17:38:07.032      front  10236   1144                   fiber.ipc_namespace - Global: no
+   info 2024-11-26 17:38:07.032      front  10236   1144                      win_app.frontend - Logging the frontend in.
+   info 2024-11-26 17:38:07.032      front  10236   1144             app.named_process_starter - Spawning local service.
+   info 2024-11-26 17:38:07.032      front  10236   1144             app.named_process_starter - Using existing control (1736).
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132    1                      app.service - Process start: 10236 (frontend).
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts enabled.
+warning 2024-11-26 17:38:07.032      front  10236   1144                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132    1                      app.service - New IPC connection.
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132    1                  fiber.scheduler - Spawning child fiber 38 (parent 1).
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132   38                      app.service - Creating an IPC accept socket.
+   info 2024-11-26 17:38:07.032       lsvc   4084  10132   38                      app.service - Connected to 10236 (frontend).
+   info 2024-11-26 17:38:07.042       lsvc   4084  10132   38                      app.service - Process login detected.
+   info 2024-11-26 17:38:07.042       lsvc   4084  10132   38                  fiber.scheduler - Spawning child fiber 39 (parent 38).
+   info 2024-11-26 17:38:07.072      front  10236   1488                        gui.mainwindow - Main window created (standard mode).
+   info 2024-11-26 17:38:07.102      front  10236   1488                      win_app.frontend - Disallowing Google Chrome offer (no permission: 0x00000000 & 0x00000001).
+   info 2024-11-26 17:38:07.102      front  10236   1144                      win_app.frontend - Received process login response.
+  error 2024-11-26 17:38:07.102      front  10236   1144                    os_win.fs_sentinel - Failed to monitor 'C:\Users\Public\AccountPictures\S-1-5-21-3387012414-4196568787-3877765190-1002' (2).
+   info 2024-11-26 17:38:07.102      front  10236   1144                      win_app.frontend - Requesting Google Chrome compatibility check.
+warning 2024-11-26 17:38:07.102      front  10236   1144                         app.user_info - Could not update user image (app.bitmap The system cannot find the path specified. (0x80070003)). Defaulting.
+   info 2024-11-26 17:38:07.102      front  10236   1144                      win_app.frontend - Frontend startup complete.
+   info 2024-11-26 17:38:07.272      front  10236   9840                     base.monitor_info - Monitors found: 1
+   info 2024-11-26 17:38:07.463       lsvc   4084  10132   38                            gcpsa - Downloading gcapi.dll.
+   info 2024-11-26 17:38:07.563       lsvc   4084  10132   38               app.fib_downloader - Canceled download of 'gcapi.dll'. A file with matching hash already exists in C:\Temp\AnyDeskPortableTemp.
+  error 2024-11-26 17:38:07.563       lsvc   4084  10132   38                            gcpsa - Failed to delete file. (0x00000004 'io_access_denied')
+warning 2024-11-26 17:38:07.563       lsvc   4084  10132   38                            gcpsa - Could not write file. (0x00000004)
+   info 2024-11-26 17:38:07.563      lctrl   1736   6268                        ad_app.control - Received GCP response (10, 1, 0, 0).
+   info 2024-11-26 17:38:08.313      front  10236   1488                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:38:08.313      front  10236   1144                      win_app.frontend - Frontend is shutting down.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132   38                      app.service - IPC socket closed.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132                       fiber.scheduler - Fiber 38 requested quit of fiber 39.
+   info 2024-11-26 17:38:08.798      front  10236   1144                      win_app.frontend - Frontend shutdown.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132   39                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132                       fiber.scheduler - Fiber 39 terminated.
+   info 2024-11-26 17:38:08.798      front  10236   1144                      win_app.frontend - Frontend terminated.
+   info 2024-11-26 17:38:08.798      front  10236   1488                      win_app.frontend - Terminating.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132   38                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132                       fiber.scheduler - Fiber 38 terminated.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132    1                      app.service - Process stop: 10236.
+   info 2024-11-26 17:38:08.798       lsvc   4084  10132    1           anynet.relay_connector - Short timeouts disabled.
+   info 2024-11-26 17:38:08.798      front  10236   1488              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:38:08.798      front  10236   1488                                  main - Terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    1                      app.service - Initiating auto-shutdown.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 5.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 5 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 6.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 6 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 10.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 10 requested quit of fiber 12.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132   12                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 12 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132   10                      app.service - Fiber exit (ipc).
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 10 terminated.
+  error 2024-11-26 17:38:18.802      lctrl   1736   6268                        ad_app.control - Service connection lost.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 4.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    4                anynet.any_socket - Listen fiber stopped.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 4 terminated.
+   info 2024-11-26 17:38:18.802      lctrl   1736   4972                        ad_app.control - Disconnect service.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    1            anynet.connection_mgr - Connection manager shutdown.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 3.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    3           anynet.main_relay_conn - Main relay connection closed.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    3            anynet.connection_mgr - Forcing cleanup.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 3 requested quit of fiber 23.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132   23                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 23 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    2            anynet.connection_mgr - Main relay connection failed (result_quit).
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 3 requested quit of fiber 22.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132   22                      fiber.fiber - Received quit.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 22 terminated.
+   info 2024-11-26 17:38:18.802      lctrl   1736  11224                          wgf.msg_loop - Received quit message.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 3 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 2.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    2            anynet.connection_mgr - Connection manager fiber quit.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 2 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 requested quit of fiber 28.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132   28              anynet.tcp_acceptor - Received quit.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 28 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132    1                  fiber.scheduler - Quitting scheduler (0).
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Fiber 1 terminated.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - No fibers left. Shutting down.
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                       fiber.scheduler - Scheduler stopped (0).
+warning 2024-11-26 17:38:18.802       lsvc   4084  10132                            temp_files - Could not delete file 'C:\Users\Yarru\Downloads\AnyDeskPortable\App\AnyDesk\gcapi.dll' (io_access_denied)
+   info 2024-11-26 17:38:18.802       lsvc   4084  10132                                  main - Terminated.
+   info 2024-11-26 17:38:19.135      lctrl   1736   7952                    app.printer_worker - Quit signal.
+   info 2024-11-26 17:38:19.135      lctrl   1736   7952                    app.printer_worker - Terminating.
+   info 2024-11-26 17:38:19.135      lctrl   1736   4972                    app.tunnel_ft_comp - Stopping file component.
+   info 2024-11-26 17:38:19.135      lctrl   1736   4972                        ad_app.control - Disconnect service.
+   info 2024-11-26 17:38:19.135      lctrl   1736   4972                        ad_app.control - Control shutdown.
+warning 2024-11-26 17:38:19.135      lctrl   1736  11224                          wgf.msg_loop - Received duplicate quit message.
+   info 2024-11-26 17:38:19.143      lctrl   1736  11224                  win_app.screen_frame - Deleted.
+   info 2024-11-26 17:38:19.155      lctrl   1736  11224                    app.tunnel_ft_comp - Terminated.
+   info 2024-11-26 17:38:19.155      lctrl   1736  11224              base.prot.job_dispatcher - 0 undelivered packets.
+   info 2024-11-26 17:38:19.155      lctrl   1736  11224                                  main - Terminated.
